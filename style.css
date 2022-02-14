@@ -1,0 +1,1294 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body,
+nav {
+  max-width: 1800px;
+  margin: auto;
+}
+nav {
+  display: flex;
+  background: rgba(0, 0, 0);
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  height: 2.9rem;
+  position: fixed;
+}
+
+.hamburger-menu {
+  float: right;
+  background: white;
+}
+.navigation {
+  margin-left: auto;
+  display: flex;
+}
+
+.name {
+  margin-right: auto;
+  color: white;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+  letter-spacing: 0rem;
+  font-weight: bolder;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+li a {
+  margin: 0rem 1rem;
+  text-decoration: none;
+  color: white;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+li,
+.name {
+  display: flex;
+  text-transform: uppercase;
+  place-items: center;
+}
+.lists {
+  text-decoration: none;
+  color: black;
+  transition: 0.7s;
+  margin: 0px 24px;
+}
+
+.btn {
+  margin: 0rem 1.8rem;
+  width: 7.5rem;
+}
+.hamburger-menu {
+  background: white;
+  margin-right: 1rem;
+  height: 1.6rem;
+  width: 1.6rem;
+  border-radius: 0rem;
+  cursor: pointer;
+  display: none;
+}
+button a {
+  text-decoration: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bolder;
+  font-size: 0.8rem;
+}
+li :hover {
+  color: red;
+}
+.lists:hover {
+  text-align: center;
+  /* border-radius: 1rem; */
+}
+button {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: bolder;
+  font-size: 0.7rem;
+  border: none;
+  background: red;
+  border-radius: 0.2rem;
+  margin-left: auto;
+  padding: 0px 22px;
+  margin-right: 0.5rem;
+  outline: none;
+  width: 7rem;
+  height: 1.7rem;
+  margin-top: 0.4rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background: rgba(255, 0, 0, 0.8);
+}
+/* JavaScript */
+/* style for the hamburger menu class list  */
+.menu {
+  left: 0%;
+}
+.fixed {
+  top: 0px;
+  position: fixed;
+}
+/* general styling */
+p,
+.footer-text,
+.copywright,
+.email {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h2 {
+  font-family: "Courier New", Courier, monospace;
+}
+figcaption,
+.motto-img-caption {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+/* body */
+#main {
+  background: url(construction/pexels-photoscom-93400~2.jpg);
+  width: 100%;
+  height: 42rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.intro {
+  /* border: 2px solid red; */
+  width: 29rem;
+  height: 22rem;
+  padding-top: 12rem;
+  padding-left: 2rem;
+}
+.call {
+  font-size: 1rem;
+  margin-top: 1rem;
+  width: 12.3rem;
+  height: 4rem;
+  margin-left: 0.7rem;
+  letter-spacing: 0.3rem;
+  box-shadow: 0px 2px 4px rgb(22, 22, 22);
+  margin-bottom: 1.5rem;
+}
+.call:hover {
+  background: rgba(255, 0, 0, 0.8);
+}
+.intro p {
+  margin-left: 1rem;
+  color: black;
+  font-size: 1.2rem;
+  padding-top: 0.5rem;
+}
+.intro h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 4.2rem;
+  width: 32rem;
+  margin-left: 1rem;
+  font-size: 1.7rem;
+  /* border: 2px solid red; */
+  border-radius: 5px;
+}
+section {
+  background: rgba(0, 0, 0, 0.7);
+  padding-top: 1rem;
+}
+section p {
+  color: black;
+  padding-bottom: 1.4rem;
+}
+.about {
+  width: 5rem;
+  text-align: center;
+  color: black;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+.p-container {
+  width: 90%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+.about p {
+  width: 100%;
+  margin: 0rem 0rem;
+}
+#projects {
+  width: 100%;
+  background: #757575;
+  padding-bottom: 2rem;
+}
+.project-heading {
+  margin: auto;
+  color: black;
+  width: 20rem;
+  padding: 1rem 0rem;
+  text-align: center;
+}
+.project-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+.project-img img {
+  border-radius: 2.6rem;
+}
+.project-img {
+  width: 23rem;
+  height: 17rem;
+  border-radius: 19rem;
+  padding: 1rem 1rem;
+  margin: 0rem 1rem;
+}
+
+.project-img figcaption {
+  text-align: center;
+  text-transform: capitalize;
+}
+#motto {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.motto-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  justify-content: space-evenly;
+}
+.motto-img {
+  width: 18.3rem;
+  margin: 1rem;
+}
+.motto-heading {
+  text-align: center;
+  margin: auto;
+
+  color: black;
+  padding-top: 1rem;
+}
+.motto-img-caption {
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+/* service */
+#service {
+  background: rgba(0, 0, 0, 0.9);
+  /* color: white; */
+}
+.service-container-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+.service-container,
+.service-container-renovation,
+.service-container-home-appliance,
+.service-container-paint-job {
+  background: #eeeeeeee;
+  width: 30rem;
+  padding: 1.6rem;
+  color: black;
+  border-radius: 2.1rem;
+  margin: 2% 5%;
+}
+.interior-design-heading p,
+.smart-home-text-container p {
+  margin-bottom: 2rem;
+  color: black;
+}
+.service-container-renovation p,
+.service-container-renovation h2,
+.service-container-paint-job h2,
+.service-container-paint-job p {
+  /* color: rgb(202, 198, 198); */
+  color: black;
+}
+.service-container-renovation,
+.service-container-paint-job,
+.sevice-container-house-customization {
+  /* background: rgba(0, 0, 0, 0.5); */
+  background: #eeeeeeee;
+  color: black;
+  margin: 2% 5%;
+}
+/* .service-container-paint-job,
+.service-container-home-appliance {
+  margin-bottom: 2rem;
+} */
+
+.service figure {
+  width: 21rem;
+  height: 17rem;
+}
+.interior-design-heading {
+  padding-bottom: 0.7rem;
+}
+.home-appliance-heading,
+.home-appliance-text {
+  color: black;
+}
+.interior-design-text {
+  color: black;
+}
+.service-text-container {
+  width: 11rem;
+  padding-left: 1rem;
+  margin-top: 1rem;
+  color: black;
+}
+.service-heading {
+  padding-bottom: 0.5rem;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 3rem;
+  color: whitesmoke;
+  padding-top: 1rem;
+}
+.service figcaption {
+  text-align: center;
+}
+.service {
+  margin-bottom: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+}
+img {
+  border-radius: 27px;
+}
+.service-container-smart-home {
+  display: flex;
+  width: 30rem;
+  border: 2px solid white;
+  border-radius: 2.1rem;
+  background: #eeeeeeee;
+  padding: 1.2rem;
+  margin: 2% 5%;
+}
+.smart-home-img {
+  width: 16rem;
+  height: 8.5rem;
+  margin: 0.9rem 0.6rem;
+  border-radius: 27px;
+  border: 2px solid white;
+}
+.smart-home-text-container {
+  width: 10rem;
+  height: 9rem;
+  margin-top: 2rem;
+  padding: 0rem 0.4rem;
+}
+.sevice-container-house-customization {
+  width: 30rem;
+  display: flex;
+  border-radius: 2.1rem;
+  padding: 1.2rem;
+  margin: 2% 5%;
+}
+.house-customization-text-container h2 {
+  font-size: 1.4rem;
+  color: black;
+}
+.house-customization-text-container {
+  width: 10rem;
+  margin-top: 1.8rem;
+  padding: 1rem 0.4rem;
+  color: black;
+}
+.house-customization-img1,
+.house-customization-img2 {
+  width: 16rem;
+  height: 8.5rem;
+  margin: 0.9rem 0.6rem;
+  border: 2px solid white;
+  border-radius: 27px;
+}
+.house-customization-text-container h2,
+p {
+  color: black;
+}
+/* review */
+.review-card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(16rem, 1fr));
+  place-items: center;
+  place-content: center;
+}
+.review-card {
+  width: 12rem;
+  margin-bottom: 0.8rem;
+  border: 2px solid black;
+  border-radius: 7px;
+  background: #e0e0e0;
+}
+#review h2 {
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+.review-img-container {
+  width: 8rem;
+  height: 6.5rem;
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 0.8rem;
+}
+.review-img-container img {
+  border-radius: 14rem;
+}
+.review-card h3 {
+  text-align: center;
+  margin-bottom: 1rem;
+  font-family: fantasy;
+  letter-spacing: 0.1rem;
+}
+.review-card p {
+  margin: auto;
+  padding: 0.3rem 0.9rem;
+  text-align: start;
+  padding-bottom: rem;
+  background: #d8d4d4;
+  margin: 0rem 1.1rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  color: black;
+}
+#review {
+  background: rgba(0, 0, 0, 0.7);
+  padding-bottom: 2rem;
+}
+.star-container {
+  display: flex;
+  width: 1.4rem;
+  height: 1.4rem;
+  margin-bottom: 0.4rem;
+  margin-left: 2rem;
+}
+/* contacts */
+#contact {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.9);
+  /* background: #e0e0e0; */
+  padding: 2rem;
+  margin: 0rem;
+}
+.contact-wrapper {
+  background: url(construction/pexels-photoscom-93400.jpg) center center
+    no-repeat;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  margin: auto;
+}
+.contact-header {
+  color: red;
+  text-shadow: 0px 3px 3px black;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 1rem;
+}
+.contact-name {
+  color: black;
+  margin-left: 4%;
+  margin-bottom: 0.8rem;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.contact-name p {
+  color: black;
+}
+.contact-name .input {
+  width: 95%;
+  padding: 0.3rem;
+  padding-bottom: 1rem;
+  outline: none;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
+.input:focus {
+  border: 2px solid red;
+}
+.text-area:focus {
+  border: 2px solid red;
+}
+.text-area {
+  text-align: start;
+  color: black;
+  font-size: 1.1rem;
+  font-weight: bolder;
+  width: 95%;
+  padding: 0.5rem;
+  padding-bottom: 13rem;
+  outline: none;
+}
+.submit-btn {
+  height: 2.9rem;
+  font-size: 1.2rem;
+  margin: 1rem;
+  margin-left: 4%;
+  cursor: pointer;
+  padding: 0.4rem;
+}
+.submit-btn:hover {
+  background: rgba(255, 0, 0, 0.8);
+}
+/* footer */
+footer {
+  background: #eeeeee;
+  padding: 2rem 0rem;
+}
+
+.footer-text-container {
+  padding: 0.6rem 2rem;
+}
+.footer-text-container p {
+  color: black;
+}
+.copywright-container {
+  display: flex;
+}
+.copywright img {
+  width: 1.5rem;
+  height: 1.5rem;
+  box-shadow: 0px 2px 4px black;
+  cursor: pointer;
+}
+.copywright img:hover {
+  background: #f44336;
+}
+.copywright:nth-child(1) {
+  margin: auto;
+  font-weight: bolder;
+}
+.footer-link {
+  margin: auto;
+  font-weight: bolder;
+  cursor: pointer;
+  color: black;
+}
+
+.copywright:nth-child(3) {
+  margin-left: auto;
+  /* margin-right: 1.3rem; */
+}
+footer p {
+  color: black;
+}
+.footer-link-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0rem 1rem;
+}
+.footer-link {
+  display: inline-block;
+  cursor: pointer;
+}
+.footer-link:hover {
+  color: red;
+}
+#review,
+#motto,
+section {
+  background: #eeeeee;
+}
+.review-card {
+  background: rgba(0, 0, 0, 0.7);
+  color: black;
+}
+.motto-img-caption {
+  color: black;
+}
+#projects {
+  background: black;
+  color: white;
+}
+.project-heading {
+  color: white;
+}
+.review-card h3 {
+  color: black;
+}
+.email {
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 1.3rem;
+}
+/* media queriers */
+
+@media only screen and (max-width: 1369px) {
+  .intro {
+    width: 27rem;
+  }
+  .intro p {
+    font-size: 1.14rem;
+    padding-top: 0rem;
+  }
+
+  @media only screen and (max-width: 1219px) {
+    .project-img {
+      width: 20rem;
+    }
+
+    .navigation {
+      display: block;
+    }
+    .btn {
+      display: block;
+      margin: auto;
+    }
+    .hamburger-menu {
+      display: block;
+    }
+    .name {
+      display: block;
+    }
+    ul {
+      /* position: absolute;
+    visibility: hidden; */
+      display: block;
+    }
+    ul {
+      position: absolute;
+      transition: 1s;
+      top: 2.8rem;
+      width: 100%;
+      height: 100vh;
+      display: block;
+      text-align: center;
+      left: 100%;
+      background: rgba(22, 22, 22, 0.95);
+    }
+    /* ul {
+    display: none;
+  } */
+    .lists {
+      display: block;
+    }
+    .lists {
+      text-align: center;
+      margin: 4rem 0rem;
+      /* margin-left: 50%; */
+    }
+  }
+
+  @media only screen and (max-width: 1119px) {
+    .btn a {
+      font-size: 0.7rem;
+    }
+    .btn {
+      width: 8rem;
+    }
+    .lists {
+      text-align: center;
+      margin: 4rem 0rem;
+    }
+  }
+
+  @media only screen and (max-width: 1065px) {
+    .project-img {
+      padding: 1rem;
+    }
+  }
+
+  @media only screen and (max-width: 1059px) {
+    .project-img {
+      margin-bottom: 2.8rem;
+      padding: 1rem;
+    }
+  }
+  @media only screen and (max-width: 721px) {
+    .intro h1 {
+      width: 25rem;
+    }
+    .intro {
+      padding-left: 0.2rem;
+    }
+    .intro p {
+      font-size: 1.04rem;
+      width: 20rem;
+      padding-top: 0rem;
+    }
+  }
+  @media only screen and (max-width: 700px) {
+    .service-container,
+    .service-container-renovation,
+    .service-container-home-appliance,
+    .service-container-paint-job,
+    .service-container-smart-home,
+    .sevice-container-house-customization {
+      width: 28rem;
+      padding: 1.5rem;
+      border-radius: 2.1rem;
+      margin-bottom: 2rem;
+    }
+    .service figure {
+      width: 16rem;
+      height: 14rem;
+    }
+    .smart-home-img {
+      width: 11rem;
+      height: 8rem;
+      border-radius: 27px;
+    }
+    .service-container-smart-home,
+    .sevice-container-house-customization {
+      padding: 0.6rem 0.5rem;
+    }
+    .house-customization-img1,
+    .house-customization-img2 {
+      width: 11rem;
+      height: 8rem;
+      border-radius: 27px;
+      border: 2px solid white;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    #main {
+      width: 100%;
+      height: 32rem;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .intro {
+      padding-top: 9rem;
+    }
+    .intro h1 {
+      width: 29rem;
+    }
+
+    .intro-text {
+      display: none;
+    }
+    .call {
+      font-size: 0.7rem;
+      margin-top: 1rem;
+      width: 9rem;
+      height: 2.7rem;
+      letter-spacing: 0.1rem;
+    }
+    .name {
+      font-size: 1rem;
+    }
+
+    .hamburger-menu {
+      width: 1.2rem;
+      height: 1.2rem;
+    }
+  }
+  @media only screen and (max-width: 573px) {
+    .intro {
+      padding-top: 9rem;
+    }
+    .intro p {
+      font-size: 0.97rem;
+      width: 17rem;
+    }
+    .intro h1 {
+      width: 29rem;
+    }
+  }
+  @media only screen and (max-width: 481px) {
+    .intro {
+      padding-top: 8rem;
+    }
+    .intro p {
+      font-size: 0.97rem;
+      width: 17rem;
+      font-weight: bold;
+    }
+    .intro h1 {
+      width: 25rem;
+    }
+    .service-container,
+    .service-container-renovation,
+    .service-container-home-appliance,
+    .service-container-paint-job {
+      width: 84%;
+      padding: 1.2rem;
+      border-radius: 1.9rem;
+      margin-bottom: 1.7rem;
+    }
+    .service-container-smart-home,
+    .sevice-container-house-customization {
+      padding: 0.3rem;
+      width: 84%;
+      border-radius: 1.9rem;
+      margin-bottom: 1.7rem;
+      height: fit-content;
+    }
+    .service-text-container {
+      padding-left: 0.4rem;
+    }
+    .house-customization-text-container {
+      margin-top: 0rem;
+    }
+    .service figure {
+      width: 16rem;
+      height: 13rem;
+    }
+    .service-text-container {
+      width: 10rem;
+    }
+    .interior-design-heading,
+    .home-appliance-heading,
+    .house-customization-text-container h2,
+    .paint-job-heading,
+    .smart-home-heading {
+      font-size: 1.2rem;
+    }
+    .smart-home-img {
+      width: 10rem;
+      height: 6rem;
+      border-radius: 27px;
+    }
+    .house-customization-img1,
+    .house-customization-img2 {
+      width: 10rem;
+      height: 7rem;
+      border-radius: 27px;
+      border: 2px solid white;
+    }
+    #motto {
+      padding-bottom: 1.4rem;
+    }
+    .motto-img {
+      width: 16rem;
+      height: 11rem;
+    }
+    .project-img img {
+      border-radius: 2.1rem;
+    }
+    .project-img {
+      width: 19rem;
+      height: 14rem;
+      margin: 1rem;
+    }
+    #contact {
+      width: 100%;
+      padding: 0rem;
+    }
+    .contact-wrapper {
+      width: 100%;
+    }
+    .contact-name .input {
+      width: 90%;
+      margin: auto;
+      padding-bottom: 0.3rem;
+    }
+    .text-area {
+      width: 90%;
+      padding-bottom: 9rem;
+    }
+    .submit-btn {
+      height: 2rem;
+      font-size: 0.8rem;
+      width: 5rem;
+    }
+  }
+  @media (max-width: 433px) {
+    .intro h1 {
+      font-size: 1.4rem;
+      width: fit-content;
+      margin-bottom: 0.1rem;
+      height: fit-content;
+    }
+    .intro p {
+      width: 15rem;
+    }
+    .intro {
+      width: fit-content;
+      padding-top: 6rem;
+    }
+  }
+  @media only screen and(max-width:422px) {
+    .service-container,
+    .service-container-renovation,
+    .service-container-home-appliance,
+    .service-container-paint-job {
+      width: 90%;
+      padding: 0.8rem;
+      border-radius: 2.1rem;
+      margin-bottom: 1.7rem;
+      margin-left: 1rem;
+    }
+    .service-container-smart-home,
+    .sevice-container-house-customization {
+      padding: 0.8rem;
+      width: 17rem;
+      border-radius: 2.1rem;
+      margin-bottom: 1.7rem;
+    }
+    .service figure {
+      width: 10rem;
+      height: 8rem;
+    }
+    .interior-design-heading,
+    .home-appliance-heading,
+    .house-customization-text-container h2,
+    .paint-job-heading,
+    .smart-home-heading {
+      font-size: 1rem;
+    }
+    .smart-home-img {
+      width: 9rem;
+      height: 6rem;
+      border-radius: 27px;
+    }
+    .house-customization-img1,
+    .house-customization-img2 {
+      width: 9rem;
+      height: 6rem;
+      border-radius: 27px;
+      border: 2px solid white;
+    }
+    .project-img {
+      width: 12rem;
+      height: 7rem;
+      padding: 0.2rem 0.5rem;
+    }
+    #contact {
+      width: 100%;
+      padding: 0remr;
+    }
+    .contact-wrapper {
+      /* display: none; */
+      width: 100%;
+    }
+    .contact-name .input {
+      width: 90%;
+      margin: auto;
+      padding-bottom: 0.8rem;
+    }
+    .text-area {
+      width: 90%;
+      padding-bottom: 10rem;
+    }
+    .submit-btn {
+      height: 1rem;
+    }
+  }
+  @media only screen and(max-width:415px) {
+    .contact-wrapper {
+      display: none;
+    }
+
+    .contact-name .input {
+      width: 90%;
+      margin: auto;
+      padding-bottom: 0.8rem;
+    }
+    .text-area {
+      width: 90%;
+      padding-bottom: 10rem;
+    }
+    .submit-btn {
+      height: 1rem;
+    }
+    .service-container,
+    .service-container-renovation,
+    .service-container-home-appliance,
+    .service-container-paint-job {
+      width: 92%;
+      padding: 0.7rem;
+      border-radius: 1.4rem;
+      margin-bottom: 1.7rem;
+    }
+  }
+  @media only screen and (max-width: 400px) {
+    .intro {
+      padding-left: 0rem;
+      padding-top: 6rem;
+    }
+    .name {
+      font-size: 0.9rem;
+    }
+    .navigation {
+      width: 100%;
+    }
+    .intro h1 {
+      width: 20rem;
+      font-size: 1.355rem;
+    }
+    .intro p {
+      width: 13rem;
+      padding-top: 0rem;
+      font-size: 0.9rem;
+      /* line-height: 1.05rem; */
+      font-weight: bolder;
+    }
+    #main {
+      height: 30rem;
+    }
+    .call {
+      font-size: 0.7rem;
+      margin-top: 1rem;
+      width: 8rem;
+      padding: 0rem;
+      height: 2.5rem;
+      word-spacing: 0.1rem;
+    }
+    .p-container p {
+      font-size: 0.84rem;
+    }
+    .about p {
+      padding: 0.2rem;
+    }
+    #projects {
+      padding-bottom: 1.3rem;
+    }
+    .service-container,
+    .service-container-renovation,
+    .service-container-home-appliance,
+    .service-container-paint-job {
+      width: 87%;
+      padding: 0.7rem;
+      border-radius: 1.4rem;
+      margin-bottom: 1.7rem;
+    }
+    .service-container-smart-home,
+    .sevice-container-house-customization {
+      padding: 0rem;
+      width: 87%;
+      border-radius: 1.4rem;
+      margin-bottom: 1.7rem;
+      height: fit-content;
+    }
+    .service figure {
+      width: 11.5rem;
+      height: 11rem;
+      padding: 0.5rem;
+    }
+    .service-text-container {
+      width: 6rem;
+      padding: 00.2rem;
+    }
+    .interior-design-heading,
+    .home-appliance-heading,
+    .house-customization-text-container h2,
+    .paint-job-heading,
+    .smart-home-heading {
+      font-size: 1rem;
+    }
+    .smart-home-img {
+      width: 9rem;
+      height: 5rem;
+      border-radius: 27px;
+    }
+    .house-customization-img1,
+    .house-customization-img2 {
+      width: 9rem;
+      height: 5rem;
+      border-radius: 27px;
+      border: 2px solid white;
+    }
+    #motto {
+      padding-bottom: 1.4rem;
+    }
+    .motto-img {
+      width: 14.7rem;
+      height: 10rem;
+    }
+    .project-img img {
+      border-radius: 2rem;
+    }
+    .project-img {
+      width: 16rem;
+      height: 11rem;
+      padding: 0.2rem 0.5rem;
+      margin: 0.8rem;
+      margin-bottom: 1.8rem;
+    }
+    .about,
+    .project-heading,
+    .motto-heading,
+    .service-heading,
+    .review-heading,
+    .contact-header {
+      font-size: 1.4rem;
+    }
+
+    .service-container-container h2 {
+      font-size: 1rem;
+      padding-bottom: 0.4rem;
+      font-weight: bolder;
+    }
+    .service-container-container p {
+      font-size: 0.76rem;
+      font-weight: bold;
+    }
+    figcaption,
+    .motto-img-caption {
+      font-size: 0.8rem;
+    }
+    .review-card {
+      width: 10rem;
+    }
+    #review h3 {
+      font-size: 0.9rem;
+    }
+    .review-card p {
+      font-size: 0.78rem;
+      padding: 0.3rem 0.7rem;
+    }
+    .review-img-container {
+      width: 5rem;
+      height: 5rem;
+    }
+    .review-card {
+      width: 10.4rem;
+    }
+    .review-card p {
+      border-radius: 0.7rem;
+    }
+    .star-container {
+      width: 0.8rem;
+      height: 0.8rem;
+    }
+    footer p {
+      font-size: 0.8rem;
+      color: black;
+    }
+    .footer-text-container {
+      padding: 0.9rem;
+    }
+    #contact {
+      padding: 0rem;
+    }
+    .contact-name .input {
+      width: 89%;
+      height: 2.3rem;
+    }
+    .text-area {
+      width: 89%;
+      height: 6.3rem;
+    }
+    .contact-name {
+      margin-left: 1.5rem;
+    }
+    .contact-wrapper {
+      width: 100%;
+    }
+    .contact-name p {
+      font-size: 0.92rem;
+    }
+    nav {
+      width: 100vw;
+    }
+    .submit-btn {
+      margin-left: 1.5rem;
+      font-size: small;
+      padding: 0.2rem 0.2rem;
+    }
+    /* #main{
+    background-position: bottom;
+  } */
+  }
+
+  @media only screen and (max-width: 384px) {
+    .service-container,
+    .service-container-renovation,
+    .service-container-home-appliance,
+    .service-container-paint-job,
+    .sevice-container-house-customization,
+    .service-container-smart-home {
+      border-radius: 1.4rem;
+    }
+    .service figure {
+      border-radius: 0.5rem;
+    }
+    .contact-name .input {
+      width: 90%;
+      margin: auto;
+      padding-bottom: 0.3rem;
+    }
+    .text-area {
+      width: 90%;
+    }
+  }
+  @media only screen and (max-width: 342px) {
+    #contact {
+      width: 100%;
+      padding: 0rem;
+    }
+    .contact-wrapper {
+      width: 100%;
+    }
+    .contact-name .input {
+      width: 90%;
+      margin: auto;
+      padding-bottom: 0.3rem;
+    }
+    .service-text-container {
+      margin-top: 0rem;
+    }
+    .service-heading {
+      margin-bottom: 0rem;
+    }
+    .paint-job-heading,
+    .service-text-container p {
+      margin: 0rem;
+      padding: 0rem;
+    }
+    .service figure {
+      padding: 0rem;
+      width: 60%;
+    }
+    .text-area {
+      width: 90%;
+      padding-bottom: 9rem;
+    }
+    .submit-btn {
+      height: 2rem;
+      font-size: 0.8rem;
+      width: 5rem;
+    }
+    .intro h1 {
+      width: 19rem;
+      height: 3.1rem;
+      font-size: 1.28rem;
+    }
+  }
+  @media only screen and (max-width: 349px) {
+    /* .service-container,
+  .service-container-renovation,
+  .service-container-home-appliance,
+  .service-container-paint-job {
+    width: 87%;
+    padding: 0.7rem;
+    border-radius: 1.4rem;
+    margin-bottom: 1.7rem;
+  } */
+    .service figure {
+      height: 12rem;
+    }
+  }
+  @media only screen and (max-width: 340px) {
+    .smart-home-img {
+      width: 7rem;
+    }
+    .house-customization-img1,
+    .house-customization-img2 {
+      width: 7rem;
+    }
+  }
+  @media only screen and (max-width: 328px) {
+    .intro h1 {
+      width: 18rem;
+      height: 4.6rem;
+      font-size: 1.355rem;
+    }
+    .intro {
+      padding-top: 6rem;
+    }
+  }
+  @media only screen and (max-width: 280px) {
+    .intro {
+      width: 13.5rem;
+    }
+    .smart-home-img {
+      width: 6rem;
+    }
+    .house-customization-img1,
+    .house-customization-img2 {
+      width: 6rem;
+    }
+  }
+}
